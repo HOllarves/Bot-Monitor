@@ -1,0 +1,42 @@
+.botContainer {
+    margin-bottom: 30px;
+}
+
+.cornerElement {
+    padding: 30px;
+    margin: 0;
+    border: 1px solid white;
+    text-align: center;
+}
+
+.topRight {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.bottomRight {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.topLeft {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.bottomLeft {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.card-img {
+    filter: brightness(20%);
+}
+
+.botContainer:hover .card>img {
+    filter: brightness(100%);
+}
