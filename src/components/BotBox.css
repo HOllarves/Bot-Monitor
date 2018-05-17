@@ -1,42 +1,54 @@
-.botContainer {
+.bot-container {
     margin-bottom: 30px;
 }
 
-.cornerElement {
-    padding: 30px;
+.corner-element {
+    padding: 15px;
     margin: 0;
-    border: 1px solid white;
     text-align: center;
 }
 
-.topRight {
+.top-right {
     position: absolute;
     top: 0;
     right: 0;
 }
 
-.bottomRight {
+.bottom-right {
     position: absolute;
     bottom: 0;
     right: 0;
 }
 
-.topLeft {
+.bot-longed {
+    border: 3px solid #02ea02;
+}
+
+.top-left {
     position: absolute;
     top: 0;
     left: 0;
 }
 
-.bottomLeft {
+.bottom-left {
     position: absolute;
     bottom: 0;
     left: 0;
+}
+
+.center-element {
+    padding: 0;
+    top: 50%;
+    bottom: 50%;
+    left: 0;
+    position: absolute;
+    right: 0;
 }
 
 .card-img {
     filter: brightness(20%);
 }
 
-.botContainer:hover .card>img {
+.bot-container:hover .card>img {
     filter: brightness(100%);
 }
