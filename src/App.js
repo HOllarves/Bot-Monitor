@@ -138,7 +138,7 @@ class App extends Component {
               <p className="lead">This example is a quick exercise to illustrate how fixed to top navbar works. As you scroll, it will remain fixed to the top of your browser's viewport.</p>
             </div>
             {this.state.info ?
-              <div class="alert alert-info" role="alert">
+              <div className="alert alert-info" role="alert">
                 <strong>Unable to load images!</strong> Will retry in aproximately 5 minutes.
              </div> : null
             }
